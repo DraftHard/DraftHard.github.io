@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet">
+    <title>Draft Hard</title>
+    <script src="js/classie.js"></script>
+    <script>
+        function init() {
+            window.addEventListener('scroll', function(e){
+                var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                    shrinkOn = 300,
+                    header = document.querySelector("header");
+                if (distanceY > shrinkOn) {
+                    classie.add(header,"smaller");
+                } else {
+                    if (classie.has(header,"smaller")) {
+                        classie.remove(header,"smaller");
+                    }
+                }
+            });
+        }
+        window.onload = init();
+    </script>
+ </head>
+<body>
+  <header>
+      <div class="container clearfix">
+          <h1 id="logo">
+              <img src="images/dh_logo.png"/>
+          </h1>
+          <nav>
+              <a href="">MLB</a>
+              <a href="">NHL</a>
+              <a href="">NFL</a>
+          </nav>
+      </div>
+  </header><
+<div class="banner">
+<div class="logo_row">
+  <img src="images/dh_logo.png"/>
+  <h2>Play For Keeps.</h2>
+</div>
+</div>
+<div style="display: inline-block;">
+<div style="display: inline-block; float: right; width: 30vw; min-width: 400px; padding-top: 10vh;">
+<p>handicapped people in handicapped places handicapped people in handicapped places handicapped people in handicapped places handicapped people in handicapped places handicapped people in handicapped places handicapped people in handicapped places handicapped people in handicapped places handicapped people in handicapped places handicapped people in handicapped places handicapped people in handicapped places </p>
+</div>
+
+<div class="featured" style="display: inline-block; float: right;">
+<div class="imageGrid" style="padding-top: 10vh;">
+  <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/placeimg01.jpg">
+    <figure>
+      <img src="images/mlb1.jpg" alt="">
+      <figcaption>
+      </figcaption>
+    </figure>
+  </a>
+  <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/placeimg02.jpg">
+    <figure>
+      <img src="images/mlb1.jpg" alt="">
+      <figcaption>
+      </figcaption>
+    </figure>
+  </a>
+  <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/placeimg03.jpg">
+    <figure>
+      <img src="images/mlb1.jpg" alt="">
+      <figcaption>
+      </figcaption>
+    </figure>
+  </a>
+  <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/placeimg04.jpg">
+    <figure>
+      <img src="images/mlb1.jpg" alt="">
+      <figcaption>
+      </figcaption>
+    </figure>
+  </a>
+  <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/placeimg05.jpg">
+    <figure>
+      <img src="images/mlb1.jpg" alt="">
+      <figcaption>
+      </figcaption>
+    </figure>
+  </a>
+  <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/placeimg06.jpg">
+    <figure>
+      <img src="images/mlb1.jpg" alt="">
+      <figcaption>
+      </figcaption>
+    </figure>
+  </a>
+  <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/placeimg07.jpg">
+    <figure>
+      <img src="images/mlb1.jpg" alt="">
+       <figcaption>
+      </figcaption>
+    </figure>
+  </a>
+  <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/placeimg08.jpg">
+    <figure>
+      <img src="images/mlb1.jpg" alt="">
+      <figcaption>
+      </figcaption>
+    </figure>
+  </a>
+</div>
+</div>
+</div>
+</html>
