@@ -8,6 +8,7 @@ body {
   width:100vw;
   position: relative;
   height:75vh;
+  margin-top: -20px;
   background-image:url(images/banner.jpg);
   -moz-background-size:cover;
   -webkit-background-size:cover;
