@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  text-align: center;
+  overflow-x:hidden;
 }
 
 /* Banner ------------------------------------------------------*/
@@ -19,6 +21,24 @@ body {
   overflow-y:hidden;
 }
 
+/*--------League Page Banner--------*/
+.banner2 {
+  width:100vw;
+  position: relative;
+  height:40vh;
+  margin-top: -20px;
+  background-image:url(images/banner.jpg);
+  -moz-background-size:cover;
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position:center bottom;
+  background-repeat:no-repeat;
+  background-attachment:relative;
+  overflow-y:hidden;
+}
+/*---------------*/
+
+
 .logo_row {
   width: 100vw;
   position: relative;
@@ -27,7 +47,7 @@ body {
 
 .logo_row img {
   width: 30vw;
-  padding-top: 30vh;
+  padding-top: 10vh;
 }
 
 @media only screen and (max-width: 900px)
@@ -74,11 +94,10 @@ h3 {
   postion: relative;
   min-height: 40vh;
   text-align: center;
-  overflow-y: hidden;
 }
 
 #widthcolumn {
-  width: 100%;
+  width: 100vw;
   text-align: center;
 }
 
