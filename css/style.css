@@ -892,35 +892,47 @@ footer img {
 .top-bar {
     color: #333;
     padding: 150px 0 150px;
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
-    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
+    background: -webkit-linear-gradient( rgba(0, 0, 0, .3), rgba(255, 255, 255, .8)), url(../img/giphy.gif);
+    background: linear-gradient( rgba(0, 0, 0, .3), rgba(255, 255, 255, .8)), url(../img/giphy.gif);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
     text-align: center;
 }
 
-.top-bar h1 {
+.top-bar-fans {
+    color: #333;
+    padding: 150px 0 150px;
+    background: -webkit-linear-gradient( rgba(0, 0, 0, .3), rgba(255, 255, 255, .8)), url(../img/giphy.gif);
+    background: linear-gradient( rgba(0, 0, 0, .3), rgba(255, 255, 255, .8)), url(../img/giphy.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
+
+
+.top-bar-fans h1 {
     font-size: 60px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #999;
+    color: #ffffff;
     line-height: 50px;
 }
 
-.top-bar p {
+.top-bar-fans p {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 500;
+    color: #ffffff;
+}
+
+.top-bar-fans p a {
     color: #777;
 }
 
-.top-bar p a {
-    color: #777;
-}
-
-.top-bar p a:hover,
-.top-bar p a:focus {
+.top-bar-fans p a:hover,
+.top-bar-fans p a:focus {
     color: #555;
     text-decoration: none;
 }
